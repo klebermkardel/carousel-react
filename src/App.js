@@ -12,8 +12,11 @@ const images = [image1, image2, image3, image4]
 function App() {
   return (
     <div className="App">
-      <motion.div className='carousel'>
-        <motion.div className='inner'>
+      <motion.div className='carousel' whileTap={{ cursor: "grabbing" }}>
+        <motion.div 
+        className='inner'
+        drag="x"
+        >
 
           {images.map(image => (
             <motion.div className='item' key={image}>

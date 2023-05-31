@@ -12,7 +12,7 @@ const images = [image1, image2, image3, image4]
 function App() {
   return (
     <div className="App">
-      <h1>Teste</h1>
+      <h1>Carrossel React</h1>
     </div>
   );
 }
